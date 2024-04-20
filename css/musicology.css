@@ -346,6 +346,7 @@ header .content .menu .header-sub-nav a {
     font-family: 'Oswald', sans-serif;
     padding: 15px;
     transition: .5s;
+    letter-spacing: 1px;
 }
 
 .tour-section .tour-bottom p {
@@ -810,7 +811,8 @@ footer .left .icon-grup a {
 }
 
 footer .left .icon-grup a:hover {
-    color: #fff;
+    /* color: #fff; */
+    color: #FF6E00;
     background: none;
     transform: rotateY(180deg);
 }
