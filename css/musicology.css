@@ -189,7 +189,7 @@ header .content .menu .header-sub-nav a {
     font-size: 19px;
 }
 
-.banner-section .b-content .b-c-a {
+.b-c-a {
     display: inline-block;
     font-size: 29px;
     color: #fff;
@@ -206,7 +206,7 @@ header .content .menu .header-sub-nav a {
 
 }
 
-.banner-section .b-content .b-c-a:after {
+.b-c-a:after {
     content: "";
     display: block;
     width: 25px;
@@ -219,7 +219,7 @@ header .content .menu .header-sub-nav a {
     z-index: 1;
 }
 
-.banner-section .b-content .b-c-a:before {
+.b-c-a:before {
     content: "";
     display: block;
     width: 25px;
@@ -232,20 +232,20 @@ header .content .menu .header-sub-nav a {
     z-index: 1;
 }
 
-.banner-section .b-content .b-c-a:hover:after {
+.b-c-a:hover:after {
     height: 100%;
     border-radius: 0px 8px 8px 0px;
     width: 25px;
 }
 
-.banner-section .b-content .b-c-a:hover:before {
+.b-c-a:hover:before {
     height: 100%;
     /* border-radius: 10px 0px 0px 10px; */
     border-radius: 8px 0px 0px 8px;
     width: 25px;
 }
 
-.banner-section .b-content .b-c-a:hover {
+.b-c-a:hover {
     color: #000;
     background: #ddd;
 }
@@ -558,25 +558,13 @@ header .content .menu .header-sub-nav a {
     font-family: 'Montserrat', sans-serif;
 }
 
-.amazing-section .amazing-writing a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 0px 70px;
-    margin-top: 20px;
-    border-radius: 7px;
-    font-size: 25px;
-    color: #fff;
-    font-family: 'Oswald', sans-serif;
-    background: #303030;
-    transition: 0.5s;
-}
-
-.amazing-section .amazing-writing a:hover {
+.read {
+    background: #fff;
     color: #e8631c;
-    background: #bebcbc;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
-
-
 
 
 
