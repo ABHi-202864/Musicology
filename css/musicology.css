@@ -250,6 +250,10 @@ header .content .menu .header-sub-nav a {
     background: #ddd;
 }
 
+.over-come {
+    overflow: hidden;
+}
+
 
 
 
@@ -564,6 +568,7 @@ header .content .menu .header-sub-nav a {
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 600;
+    overflow: hidden;
 }
 
 
